@@ -1,0 +1,3 @@
+# Referenced at H:\android\Projects\Mini Project\Teksee\TekSee\build\intermediates\manifests\full\debug\AndroidManifest.xml:28
+-keep class com.parse.TekSee.StarterApplication { <init>(...); }
+
