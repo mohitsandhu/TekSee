@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background"
+    tools:context="com.parse.TekSee.Login"
+    android:background="#8D6E63">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mainicon"
+        android:id="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:hint="UserName..."
+        android:inputType="textPersonName"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:layout_below="@+id/username"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Password..."
+        android:inputType="textPassword"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="18sp"
+        android:onClick="Login"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
